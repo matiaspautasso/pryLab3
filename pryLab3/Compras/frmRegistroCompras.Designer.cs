@@ -168,16 +168,16 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5,
+            this.columnHeader8,
             this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
+            this.columnHeader7});
             this.ListRegVen.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListRegVen.FullRowSelect = true;
             this.ListRegVen.GridLines = true;
             this.ListRegVen.HideSelection = false;
             this.ListRegVen.Location = new System.Drawing.Point(21, 105);
             this.ListRegVen.Name = "ListRegVen";
-            this.ListRegVen.Size = new System.Drawing.Size(795, 358);
+            this.ListRegVen.Size = new System.Drawing.Size(805, 369);
             this.ListRegVen.TabIndex = 4;
             this.ListRegVen.UseCompatibleStateImageBehavior = false;
             this.ListRegVen.View = System.Windows.Forms.View.Details;
@@ -214,11 +214,12 @@
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "Total";
+            this.columnHeader7.Text = "Subotal";
             this.columnHeader7.Width = 100;
             // 
             // columnHeader8
             // 
+            this.columnHeader8.DisplayIndex = 6;
             this.columnHeader8.Text = "T op";
             this.columnHeader8.Width = 100;
             // 
