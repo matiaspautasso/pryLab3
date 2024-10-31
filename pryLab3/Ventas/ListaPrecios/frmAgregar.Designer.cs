@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.grpDatos = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.txtCorreo = new System.Windows.Forms.TextBox();
@@ -47,9 +45,7 @@
             // 
             // grpDatos
             // 
-            this.grpDatos.Controls.Add(this.textBox1);
             this.grpDatos.Controls.Add(this.label6);
-            this.grpDatos.Controls.Add(this.label5);
             this.grpDatos.Controls.Add(this.btnCancelar);
             this.grpDatos.Controls.Add(this.btnGuardar);
             this.grpDatos.Controls.Add(this.txtCorreo);
@@ -68,14 +64,6 @@
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Datos";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(128, 356);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(262, 30);
-            this.textBox1.TabIndex = 26;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -85,16 +73,6 @@
             this.label6.Size = new System.Drawing.Size(166, 23);
             this.label6.TabIndex = 25;
             this.label6.Text = "Agregar Articulo";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(14, 363);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 23);
-            this.label5.TabIndex = 24;
-            this.label5.Text = "Fecha";
             // 
             // btnCancelar
             // 
@@ -207,9 +185,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox grpDatos;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.TextBox txtCorreo;
