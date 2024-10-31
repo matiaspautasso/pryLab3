@@ -49,7 +49,6 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrecioPack = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grpDatos.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -231,11 +230,10 @@
             this.Column2,
             this.Column5,
             this.Column3,
-            this.Column4,
-            this.PrecioPack});
-            this.dgvProd.Location = new System.Drawing.Point(26, 312);
+            this.Column4});
+            this.dgvProd.Location = new System.Drawing.Point(21, 314);
             this.dgvProd.Name = "dgvProd";
-            this.dgvProd.Size = new System.Drawing.Size(805, 333);
+            this.dgvProd.Size = new System.Drawing.Size(971, 333);
             this.dgvProd.TabIndex = 1;
             // 
             // Column1
@@ -260,13 +258,8 @@
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "Precio";
+            this.Column4.HeaderText = "Precio ";
             this.Column4.Name = "Column4";
-            // 
-            // PrecioPack
-            // 
-            this.PrecioPack.HeaderText = "Precio Pack";
-            this.PrecioPack.Name = "PrecioPack";
             // 
             // frmListaPrecProd
             // 
@@ -309,6 +302,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PrecioPack;
     }
 }
