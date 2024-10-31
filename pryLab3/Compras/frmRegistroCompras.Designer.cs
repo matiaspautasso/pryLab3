@@ -169,8 +169,8 @@
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8});
+            this.columnHeader8,
+            this.columnHeader7});
             this.ListRegVen.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListRegVen.FullRowSelect = true;
             this.ListRegVen.GridLines = true;
@@ -214,11 +214,13 @@
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "Total";
+            this.columnHeader7.DisplayIndex = 6;
+            this.columnHeader7.Text = "Subotal";
             this.columnHeader7.Width = 100;
             // 
             // columnHeader8
             // 
+            this.columnHeader8.DisplayIndex = 7;
             this.columnHeader8.Text = "T op";
             this.columnHeader8.Width = 100;
             // 

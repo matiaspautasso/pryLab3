@@ -46,8 +46,10 @@
             this.dgvProd = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrecioPack = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grpDatos.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -63,7 +65,7 @@
             this.grpDatos.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpDatos.Location = new System.Drawing.Point(12, 12);
             this.grpDatos.Name = "grpDatos";
-            this.grpDatos.Size = new System.Drawing.Size(866, 664);
+            this.grpDatos.Size = new System.Drawing.Size(1039, 664);
             this.grpDatos.TabIndex = 0;
             this.grpDatos.TabStop = false;
             this.grpDatos.Text = "Precios";
@@ -79,7 +81,7 @@
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Location = new System.Drawing.Point(21, 29);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(278, 260);
+            this.groupBox2.Size = new System.Drawing.Size(372, 260);
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Articulo";
@@ -151,7 +153,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(317, 229);
+            this.button1.Location = new System.Drawing.Point(505, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(76, 44);
             this.button1.TabIndex = 22;
@@ -166,9 +168,9 @@
             this.groupBox1.Controls.Add(this.btnEditar);
             this.groupBox1.Controls.Add(this.btnExportar);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(317, 29);
+            this.groupBox1.Location = new System.Drawing.Point(454, 29);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(515, 165);
+            this.groupBox1.Size = new System.Drawing.Size(566, 165);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "acciones";
@@ -227,8 +229,10 @@
             this.dgvProd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
+            this.Column5,
             this.Column3,
-            this.Column4});
+            this.Column4,
+            this.PrecioPack});
             this.dgvProd.Location = new System.Drawing.Point(26, 312);
             this.dgvProd.Name = "dgvProd";
             this.dgvProd.Size = new System.Drawing.Size(805, 333);
@@ -244,6 +248,11 @@
             this.Column2.HeaderText = "Descripcion";
             this.Column2.Name = "Column2";
             // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Cantidad";
+            this.Column5.Name = "Column5";
+            // 
             // Column3
             // 
             this.Column3.HeaderText = "Categoria";
@@ -254,12 +263,17 @@
             this.Column4.HeaderText = "Precio";
             this.Column4.Name = "Column4";
             // 
+            // PrecioPack
+            // 
+            this.PrecioPack.HeaderText = "Precio Pack";
+            this.PrecioPack.Name = "PrecioPack";
+            // 
             // frmListaPrecProd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(918, 688);
+            this.ClientSize = new System.Drawing.Size(1072, 688);
             this.Controls.Add(this.grpDatos);
             this.Name = "frmListaPrecProd";
             this.Text = "Productos";
@@ -292,7 +306,9 @@
         private System.Windows.Forms.Label lblcategoria;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PrecioPack;
     }
 }
