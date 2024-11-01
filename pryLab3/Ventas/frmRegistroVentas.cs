@@ -1,4 +1,5 @@
-﻿using System;
+﻿using pryLab3.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,19 +21,9 @@ namespace pryLab3.Ventas
 
         private void frmRegistroVentas_Load(object sender, EventArgs e)
         {
-            ListRegVen.AutoResizeColumn(0, ColumnHeaderAutoResizeStyle.ColumnContent); // Primera columna
-            ListRegVen.AutoResizeColumn(1, ColumnHeaderAutoResizeStyle.ColumnContent);
-            ListRegVen.AutoResizeColumn(2, ColumnHeaderAutoResizeStyle.ColumnContent);
-            ListRegVen.AutoResizeColumn(3, ColumnHeaderAutoResizeStyle.ColumnContent);
-            ListRegVen.AutoResizeColumn(4, ColumnHeaderAutoResizeStyle.ColumnContent);
-            int totalWidth = ListRegVen.ClientSize.Width;
-            int columnCount = ListRegVen.Columns.Count;
-            int columnWidth = totalWidth / columnCount;
+            dgvMostrar.Font = new Font("Arial", 14, FontStyle.Regular);
 
-            foreach (ColumnHeader column in ListRegVen.Columns)
-            {
-                column.Width = columnWidth;
-            }
+
 
         }
 
@@ -44,6 +35,14 @@ namespace pryLab3.Ventas
         private void btnVolver_Click(object sender, EventArgs e)
         {
             Close();
+        }
+        clsVentas ventas=new clsVentas();
+        private void btnmas_Click(object sender, EventArgs e)
+        {
+            int codigo=int.Parse(txtCodigo.Text);
+            int descuento=int.Parse(txtDescuento.Text);
+            string tOperacion=cboTipoOp.Text;
+           // ventas.MostrarGrillaConDescuento("LISTAPRECIOS",dgvMostrar,codigo,descuento,tOperacion);
         }
     }
 }
