@@ -1,4 +1,5 @@
-﻿using System;
+﻿using pryLab3.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,13 +20,18 @@ namespace pryLab3.Otros
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-
+            //ClsConexion clsConexion = new ClsConexion();    clsConexion.VerificarConexion();
         }
+        ClsConexion ClsConexion=new ClsConexion();  
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            frmMenu frm = new frmMenu();
-            frm.ShowDialog();   
+            string usuario=txtUsuario.Text;
+            string contrasena = txtContra.Text;
+            string permiso=txtPermiso.Text; 
+            ClsConexion.VerificarUsuario(usuario,contrasena, out permiso);
+            
+            
         }
 
         private void lblRecContraseña_Click(object sender, EventArgs e)
