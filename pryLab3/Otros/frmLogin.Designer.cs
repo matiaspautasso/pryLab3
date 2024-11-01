@@ -85,7 +85,7 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(38, 21);
+            this.lblUsuario.Location = new System.Drawing.Point(38, 67);
             this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(63, 19);
@@ -95,7 +95,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(136, 18);
+            this.txtUsuario.Location = new System.Drawing.Point(136, 64);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(102, 27);
@@ -104,7 +104,7 @@
             // txtContra
             // 
             this.txtContra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContra.Location = new System.Drawing.Point(136, 63);
+            this.txtContra.Location = new System.Drawing.Point(136, 156);
             this.txtContra.Margin = new System.Windows.Forms.Padding(2);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(102, 27);
@@ -128,7 +128,7 @@
             this.lblContra.AutoSize = true;
             this.lblContra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblContra.Location = new System.Drawing.Point(38, 66);
+            this.lblContra.Location = new System.Drawing.Point(38, 159);
             this.lblContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContra.Name = "lblContra";
             this.lblContra.Size = new System.Drawing.Size(88, 19);

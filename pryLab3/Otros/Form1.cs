@@ -43,5 +43,10 @@ namespace pryLab3
         {
             frmListaPrecProd frmListaPrecProd = new frmListaPrecProd(); frmListaPrecProd.ShowDialog();
         }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

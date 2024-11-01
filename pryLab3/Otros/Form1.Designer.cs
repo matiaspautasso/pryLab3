@@ -74,6 +74,7 @@
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
             this.ventasToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.ventasToolStripMenuItem.Text = "Ventas";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // registroDeVentasToolStripMenuItem
             // 
@@ -208,7 +209,6 @@
             this.Controls.Add(this.MenuInicio);
             this.Name = "frmMenu";
             this.Text = "Menu";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMenu_Load);
             this.MenuInicio.ResumeLayout(false);
             this.MenuInicio.PerformLayout();

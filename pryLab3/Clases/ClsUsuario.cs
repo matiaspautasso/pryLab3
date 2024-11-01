@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient; // using para sqlsever 
 using System.Windows.Forms;
 using System.Data;
+using pryLab3.Otros;
 
 namespace pryLab3.Clases
 {
@@ -15,9 +16,7 @@ namespace pryLab3.Clases
 
         public class clsUsuario
         {
-            public string NombreUsuario { get; set; }
-            public string Contrasena { get; set; }
-            public string Permiso { get; set; }
+            
         }
 
         public ClsUsuario() { cadena = "Data Source=MATUTE_NOTEBOOK;Initial Catalog=Lab3;Integrated Security=True"; }
@@ -84,12 +83,14 @@ namespace pryLab3.Clases
                     int id = Convert.ToInt32(tabla.Rows[0]["id"]);
                     string permiso = tabla.Rows[0]["permiso"].ToString();
 
-                    MessageBox.Show($"Inicio de sesión exitoso\nUsuario: {usuario}\nPermiso: {permiso}",
-                        "Autenticación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                  
+
+                 
+                   
                 }
                 else
                 {
-                    MessageBox.Show("Usuario o contraseña incorrectos",
+                    MessageBox.Show("Usuario o contraseña incorrectos, reintentar",
                         "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

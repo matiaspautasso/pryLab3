@@ -43,7 +43,12 @@ namespace pryLab3.Ventas
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Close();
+            Close(); 
+        }
+
+        private void btnCancelarVta_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
