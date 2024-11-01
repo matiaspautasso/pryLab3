@@ -18,10 +18,11 @@ namespace pryLab3.Ventas
         {
             InitializeComponent();
         }
-
+        clsVentas clsVentas = new clsVentas();  
         private void frmRegistroVentas_Load(object sender, EventArgs e)
         {
             dgvMostrar.Font = new Font("Arial", 14, FontStyle.Regular);
+         
 
 
 
@@ -42,7 +43,7 @@ namespace pryLab3.Ventas
             int codigo=int.Parse(txtCodigo.Text);
             int descuento=int.Parse(txtDescuento.Text);
             string tOperacion=cboTipoOp.Text;
-           // ventas.MostrarGrillaConDescuento("LISTAPRECIOS",dgvMostrar,codigo,descuento,tOperacion);
+            ventas.MostrarGrillaConDescuento("LISTAPRECIOS",dgvMostrar,codigo,descuento,tOperacion);
         }
     }
 }
