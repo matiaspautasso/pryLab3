@@ -35,8 +35,6 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContra = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.txtPermiso = new System.Windows.Forms.TextBox();
-            this.lblPermiso = new System.Windows.Forms.Label();
             this.lblContra = new System.Windows.Forms.Label();
             this.lblInicioSesion = new System.Windows.Forms.Label();
             this.lblRegistrarse = new System.Windows.Forms.Label();
@@ -61,8 +59,6 @@
             this.grpLogIn.Controls.Add(this.txtUsuario);
             this.grpLogIn.Controls.Add(this.txtContra);
             this.grpLogIn.Controls.Add(this.btnIngresar);
-            this.grpLogIn.Controls.Add(this.txtPermiso);
-            this.grpLogIn.Controls.Add(this.lblPermiso);
             this.grpLogIn.Controls.Add(this.lblContra);
             this.grpLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.grpLogIn.Location = new System.Drawing.Point(65, 86);
@@ -126,28 +122,6 @@
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = false;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
-            // 
-            // txtPermiso
-            // 
-            this.txtPermiso.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPermiso.Location = new System.Drawing.Point(117, 130);
-            this.txtPermiso.Margin = new System.Windows.Forms.Padding(2);
-            this.txtPermiso.Name = "txtPermiso";
-            this.txtPermiso.ReadOnly = true;
-            this.txtPermiso.Size = new System.Drawing.Size(102, 27);
-            this.txtPermiso.TabIndex = 6;
-            // 
-            // lblPermiso
-            // 
-            this.lblPermiso.AutoSize = true;
-            this.lblPermiso.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPermiso.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblPermiso.Location = new System.Drawing.Point(19, 133);
-            this.lblPermiso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblPermiso.Name = "lblPermiso";
-            this.lblPermiso.Size = new System.Drawing.Size(66, 19);
-            this.lblPermiso.TabIndex = 3;
-            this.lblPermiso.Text = "Permiso";
             // 
             // lblContra
             // 
@@ -215,8 +189,6 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContra;
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.TextBox txtPermiso;
-        private System.Windows.Forms.Label lblPermiso;
         private System.Windows.Forms.Label lblContra;
         private System.Windows.Forms.Label lblInicioSesion;
         private System.Windows.Forms.Label lblRegistrarse;

@@ -59,7 +59,7 @@
     <Compile Include="Caja\frmMovimientosHistoricos.Designer.cs">
       <DependentUpon>frmMovimientosHistoricos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clases\ClsConexion.cs" />
+    <Compile Include="Clases\ClsUsuario.cs" />
     <Compile Include="Compras\agendaProveedores\frmAgregar.cs">
       <SubType>Form</SubType>
     </Compile>

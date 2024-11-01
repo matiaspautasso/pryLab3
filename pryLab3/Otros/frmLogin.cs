@@ -22,14 +22,14 @@ namespace pryLab3.Otros
         {
             //ClsConexion clsConexion = new ClsConexion();    clsConexion.VerificarConexion();
         }
-        ClsConexion ClsConexion=new ClsConexion();  
+        ClsUsuario ClsUsuario=new ClsUsuario();  
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             string usuario=txtUsuario.Text;
             string contrasena = txtContra.Text;
-            string permiso=txtPermiso.Text; 
-            ClsConexion.VerificarUsuario(usuario,contrasena, out permiso);
+            
+            ClsUsuario.VerificarUsuario(usuario,contrasena);
             
             
         }
