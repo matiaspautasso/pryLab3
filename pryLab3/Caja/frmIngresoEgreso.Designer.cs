@@ -47,6 +47,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.rdbEfe = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grMostrar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMostrar)).BeginInit();
             this.grpEgringr.SuspendLayout();
@@ -59,7 +60,7 @@
             this.grMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grMostrar.Location = new System.Drawing.Point(55, 244);
             this.grMostrar.Name = "grMostrar";
-            this.grMostrar.Size = new System.Drawing.Size(826, 315);
+            this.grMostrar.Size = new System.Drawing.Size(895, 439);
             this.grMostrar.TabIndex = 0;
             this.grMostrar.TabStop = false;
             this.grMostrar.Text = "Datos";
@@ -74,10 +75,11 @@
             this.Column2,
             this.Column3,
             this.Column4,
-            this.Column5});
+            this.Column5,
+            this.Column6});
             this.dgvMostrar.Location = new System.Drawing.Point(34, 34);
             this.dgvMostrar.Name = "dgvMostrar";
-            this.dgvMostrar.Size = new System.Drawing.Size(770, 257);
+            this.dgvMostrar.Size = new System.Drawing.Size(770, 377);
             this.dgvMostrar.TabIndex = 0;
             // 
             // Column1
@@ -115,7 +117,7 @@
             this.grpEgringr.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpEgringr.Location = new System.Drawing.Point(55, 25);
             this.grpEgringr.Name = "grpEgringr";
-            this.grpEgringr.Size = new System.Drawing.Size(826, 213);
+            this.grpEgringr.Size = new System.Drawing.Size(895, 213);
             this.grpEgringr.TabIndex = 1;
             this.grpEgringr.TabStop = false;
             this.grpEgringr.Text = "Filtros";
@@ -160,9 +162,9 @@
             this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Controls.Add(this.rdbEfe);
             this.groupBox3.Controls.Add(this.radioButton1);
-            this.groupBox3.Location = new System.Drawing.Point(69, 64);
+            this.groupBox3.Location = new System.Drawing.Point(34, 73);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(708, 121);
+            this.groupBox3.Size = new System.Drawing.Size(770, 121);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -226,12 +228,17 @@
             this.radioButton1.Text = "Transferencia";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "TOTAL";
+            this.Column6.Name = "Column6";
+            // 
             // frmIngresoEgreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(967, 584);
+            this.ClientSize = new System.Drawing.Size(1020, 715);
             this.Controls.Add(this.grpEgringr);
             this.Controls.Add(this.grMostrar);
             this.Name = "frmIngresoEgreso";
@@ -267,5 +274,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button btnGrafico;
         private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }
