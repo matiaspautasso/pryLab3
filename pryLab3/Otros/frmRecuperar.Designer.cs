@@ -43,7 +43,7 @@
             // 
             this.lblIrAInicio.AutoSize = true;
             this.lblIrAInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIrAInicio.Location = new System.Drawing.Point(354, 369);
+            this.lblIrAInicio.Location = new System.Drawing.Point(354, 395);
             this.lblIrAInicio.Name = "lblIrAInicio";
             this.lblIrAInicio.Size = new System.Drawing.Size(100, 17);
             this.lblIrAInicio.TabIndex = 31;
@@ -54,7 +54,7 @@
             // 
             this.lblIrACrearCta.AutoSize = true;
             this.lblIrACrearCta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIrACrearCta.Location = new System.Drawing.Point(345, 292);
+            this.lblIrACrearCta.Location = new System.Drawing.Point(345, 318);
             this.lblIrACrearCta.Name = "lblIrACrearCta";
             this.lblIrACrearCta.Size = new System.Drawing.Size(122, 17);
             this.lblIrACrearCta.TabIndex = 30;
@@ -64,7 +64,7 @@
             // lblC
             // 
             this.lblC.AutoSize = true;
-            this.lblC.Location = new System.Drawing.Point(398, 330);
+            this.lblC.Location = new System.Drawing.Point(398, 356);
             this.lblC.Name = "lblC";
             this.lblC.Size = new System.Drawing.Size(15, 13);
             this.lblC.TabIndex = 29;
@@ -73,7 +73,7 @@
             // lblZ
             // 
             this.lblZ.AutoSize = true;
-            this.lblZ.Location = new System.Drawing.Point(419, 330);
+            this.lblZ.Location = new System.Drawing.Point(419, 356);
             this.lblZ.Name = "lblZ";
             this.lblZ.Size = new System.Drawing.Size(157, 13);
             this.lblZ.TabIndex = 28;
@@ -82,7 +82,7 @@
             // lblX
             // 
             this.lblX.AutoSize = true;
-            this.lblX.Location = new System.Drawing.Point(233, 330);
+            this.lblX.Location = new System.Drawing.Point(233, 356);
             this.lblX.Name = "lblX";
             this.lblX.Size = new System.Drawing.Size(157, 26);
             this.lblX.TabIndex = 27;
@@ -99,6 +99,7 @@
             this.cmdEnviarEnlace.TabIndex = 26;
             this.cmdEnviarEnlace.Text = "Enviar enlace de inicio de sesión";
             this.cmdEnviarEnlace.UseVisualStyleBackColor = false;
+            this.cmdEnviarEnlace.Click += new System.EventHandler(this.cmdEnviarEnlace_Click);
             // 
             // txtIngresarMail
             // 
@@ -112,14 +113,14 @@
             // lbltextRecupContra
             // 
             this.lbltextRecupContra.AutoSize = true;
-            this.lbltextRecupContra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltextRecupContra.Location = new System.Drawing.Point(148, 106);
+            this.lbltextRecupContra.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltextRecupContra.Location = new System.Drawing.Point(120, 89);
             this.lbltextRecupContra.Name = "lbltextRecupContra";
-            this.lbltextRecupContra.Size = new System.Drawing.Size(428, 57);
+            this.lbltextRecupContra.Size = new System.Drawing.Size(536, 50);
             this.lbltextRecupContra.TabIndex = 24;
-            this.lbltextRecupContra.Text = "                                  Ingresa tu correo electrónico \r\n               " +
-    "   y te enviaremos un enlace para que recuperes \r\n                              " +
-    "        el acceso a tu cuenta.";
+            this.lbltextRecupContra.Text = "Ingresa tu correo electronico y te enviaremos un enlace\r\n para que recuperes tu c" +
+    "uenta\r\n";
+            this.lbltextRecupContra.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblProblemInicio
             // 

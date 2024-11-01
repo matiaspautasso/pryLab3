@@ -41,13 +41,15 @@
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblCtaExis = new System.Windows.Forms.Label();
             this.lblBienvenida = new System.Windows.Forms.Label();
+            this.picMostrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picMostrar)).BeginInit();
             this.SuspendLayout();
             // 
             // cmdGuardar
             // 
             this.cmdGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cmdGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdGuardar.Location = new System.Drawing.Point(138, 388);
+            this.cmdGuardar.Location = new System.Drawing.Point(137, 406);
             this.cmdGuardar.Name = "cmdGuardar";
             this.cmdGuardar.Size = new System.Drawing.Size(121, 30);
             this.cmdGuardar.TabIndex = 39;
@@ -58,7 +60,7 @@
             // 
             this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnSiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiguiente.Location = new System.Drawing.Point(265, 388);
+            this.btnSiguiente.Location = new System.Drawing.Point(264, 406);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(121, 30);
             this.btnSiguiente.TabIndex = 27;
@@ -70,7 +72,7 @@
             this.lblTerminos.AutoSize = true;
             this.lblTerminos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTerminos.ForeColor = System.Drawing.Color.White;
-            this.lblTerminos.Location = new System.Drawing.Point(154, 339);
+            this.lblTerminos.Location = new System.Drawing.Point(153, 357);
             this.lblTerminos.Name = "lblTerminos";
             this.lblTerminos.Size = new System.Drawing.Size(248, 30);
             this.lblTerminos.TabIndex = 35;
@@ -81,7 +83,7 @@
             this.lblIni.AutoSize = true;
             this.lblIni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.lblIni.Location = new System.Drawing.Point(277, 450);
+            this.lblIni.Location = new System.Drawing.Point(276, 468);
             this.lblIni.Name = "lblIni";
             this.lblIni.Size = new System.Drawing.Size(96, 16);
             this.lblIni.TabIndex = 38;
@@ -102,7 +104,7 @@
             this.chkcuenta.AutoSize = true;
             this.chkcuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkcuenta.ForeColor = System.Drawing.Color.Black;
-            this.chkcuenta.Location = new System.Drawing.Point(133, 341);
+            this.chkcuenta.Location = new System.Drawing.Point(124, 357);
             this.chkcuenta.Name = "chkcuenta";
             this.chkcuenta.Size = new System.Drawing.Size(15, 14);
             this.chkcuenta.TabIndex = 34;
@@ -172,7 +174,7 @@
             this.lblCtaExis.AutoSize = true;
             this.lblCtaExis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCtaExis.ForeColor = System.Drawing.Color.White;
-            this.lblCtaExis.Location = new System.Drawing.Point(135, 450);
+            this.lblCtaExis.Location = new System.Drawing.Point(134, 468);
             this.lblCtaExis.Name = "lblCtaExis";
             this.lblCtaExis.Size = new System.Drawing.Size(145, 16);
             this.lblCtaExis.TabIndex = 37;
@@ -189,6 +191,15 @@
             this.lblBienvenida.TabIndex = 36;
             this.lblBienvenida.Text = "Te Damos La Bienvenida";
             // 
+            // picMostrar
+            // 
+            this.picMostrar.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.picMostrar.Location = new System.Drawing.Point(78, 200);
+            this.picMostrar.Name = "picMostrar";
+            this.picMostrar.Size = new System.Drawing.Size(379, 151);
+            this.picMostrar.TabIndex = 40;
+            this.picMostrar.TabStop = false;
+            // 
             // frmRegistrarse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +207,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(516, 499);
+            this.Controls.Add(this.picMostrar);
             this.Controls.Add(this.cmdGuardar);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.lblTerminos);
@@ -211,6 +223,8 @@
             this.Controls.Add(this.lblBienvenida);
             this.Name = "frmRegistrarse";
             this.Text = "Registrarse";
+            this.Load += new System.EventHandler(this.frmRegistrarse_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picMostrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,5 +245,6 @@
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblCtaExis;
         private System.Windows.Forms.Label lblBienvenida;
+        private System.Windows.Forms.PictureBox picMostrar;
     }
 }

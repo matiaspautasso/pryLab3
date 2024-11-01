@@ -28,10 +28,18 @@ namespace pryLab3.Otros
         {
             string usuario=txtUsuario.Text;
             string contrasena = txtContra.Text;
-            
-            ClsUsuario.VerificarUsuario(usuario,contrasena);
-            
-            
+
+            bool usuariovalido=ClsUsuario.VerificarUsuario(usuario,contrasena);
+           
+           
+            if (usuariovalido)
+            {
+                frmMenu menuPrincipal = new frmMenu();
+                menuPrincipal.Show();
+                this.Hide(); // Oculta en lugar de cerrar
+            }
+
+
         }
 
         private void lblRecContraseña_Click(object sender, EventArgs e)

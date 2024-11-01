@@ -172,6 +172,7 @@
             this.btnCancelarVta.TabIndex = 1;
             this.btnCancelarVta.Text = "Cancelar venta";
             this.btnCancelarVta.UseVisualStyleBackColor = true;
+            this.btnCancelarVta.Click += new System.EventHandler(this.btnCancelarVta_Click);
             // 
             // groupBox1
             // 
