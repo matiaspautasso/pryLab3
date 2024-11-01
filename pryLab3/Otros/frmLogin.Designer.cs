@@ -46,7 +46,7 @@
             this.lblClick.AutoSize = true;
             this.lblClick.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClick.ForeColor = System.Drawing.Color.White;
-            this.lblClick.Location = new System.Drawing.Point(103, 357);
+            this.lblClick.Location = new System.Drawing.Point(98, 409);
             this.lblClick.Name = "lblClick";
             this.lblClick.Size = new System.Drawing.Size(128, 16);
             this.lblClick.TabIndex = 19;
@@ -61,9 +61,9 @@
             this.grpLogIn.Controls.Add(this.btnIngresar);
             this.grpLogIn.Controls.Add(this.lblContra);
             this.grpLogIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.grpLogIn.Location = new System.Drawing.Point(65, 86);
+            this.grpLogIn.Location = new System.Drawing.Point(44, 51);
             this.grpLogIn.Name = "grpLogIn";
-            this.grpLogIn.Size = new System.Drawing.Size(254, 256);
+            this.grpLogIn.Size = new System.Drawing.Size(305, 355);
             this.grpLogIn.TabIndex = 18;
             this.grpLogIn.TabStop = false;
             this.grpLogIn.Text = "                   ";
@@ -73,7 +73,7 @@
             this.lblRecContraseña.AutoSize = true;
             this.lblRecContraseña.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecContraseña.ForeColor = System.Drawing.Color.White;
-            this.lblRecContraseña.Location = new System.Drawing.Point(57, 230);
+            this.lblRecContraseña.Location = new System.Drawing.Point(84, 324);
             this.lblRecContraseña.Name = "lblRecContraseña";
             this.lblRecContraseña.Size = new System.Drawing.Size(136, 13);
             this.lblRecContraseña.TabIndex = 7;
@@ -85,7 +85,7 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(19, 45);
+            this.lblUsuario.Location = new System.Drawing.Point(38, 21);
             this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(63, 19);
@@ -95,7 +95,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(117, 42);
+            this.txtUsuario.Location = new System.Drawing.Point(136, 18);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(102, 27);
@@ -104,7 +104,7 @@
             // txtContra
             // 
             this.txtContra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContra.Location = new System.Drawing.Point(117, 87);
+            this.txtContra.Location = new System.Drawing.Point(136, 63);
             this.txtContra.Margin = new System.Windows.Forms.Padding(2);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(102, 27);
@@ -115,7 +115,7 @@
             this.btnIngresar.BackColor = System.Drawing.Color.White;
             this.btnIngresar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.Black;
-            this.btnIngresar.Location = new System.Drawing.Point(22, 181);
+            this.btnIngresar.Location = new System.Drawing.Point(45, 278);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(213, 34);
             this.btnIngresar.TabIndex = 0;
@@ -128,7 +128,7 @@
             this.lblContra.AutoSize = true;
             this.lblContra.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContra.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblContra.Location = new System.Drawing.Point(19, 90);
+            this.lblContra.Location = new System.Drawing.Point(38, 66);
             this.lblContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContra.Name = "lblContra";
             this.lblContra.Size = new System.Drawing.Size(88, 19);
@@ -140,7 +140,7 @@
             this.lblInicioSesion.AutoSize = true;
             this.lblInicioSesion.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioSesion.ForeColor = System.Drawing.Color.White;
-            this.lblInicioSesion.Location = new System.Drawing.Point(59, 41);
+            this.lblInicioSesion.Location = new System.Drawing.Point(58, 9);
             this.lblInicioSesion.Name = "lblInicioSesion";
             this.lblInicioSesion.Size = new System.Drawing.Size(271, 39);
             this.lblInicioSesion.TabIndex = 17;
@@ -152,7 +152,7 @@
             this.lblRegistrarse.BackColor = System.Drawing.Color.Transparent;
             this.lblRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistrarse.ForeColor = System.Drawing.Color.Yellow;
-            this.lblRegistrarse.Location = new System.Drawing.Point(227, 357);
+            this.lblRegistrarse.Location = new System.Drawing.Point(222, 409);
             this.lblRegistrarse.Name = "lblRegistrarse";
             this.lblRegistrarse.Size = new System.Drawing.Size(60, 16);
             this.lblRegistrarse.TabIndex = 16;

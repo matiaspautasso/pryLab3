@@ -20,7 +20,7 @@ namespace pryLab3.Clases
             public string Permiso { get; set; }
         }
 
-        public ClsUsuario() { cadena = "Data Source=MATUTE_NOTEBOOK;Integrated Security=True"; }
+        public ClsUsuario() { cadena = "Data Source=MATUTE_NOTEBOOK;Initial Catalog=Lab3;Integrated Security=True"; }
 
         public bool VerificarConexion()
         {
